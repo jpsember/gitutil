@@ -1,0 +1,26 @@
+.DS_Store
+
+# Sublime text editor
+#
+*.sublime-project
+*.sublime-workspace
+
+# Files marked for later removal, or temporary omission
+#
+_OLD_*
+_SKIP_*
+
+# PyCharm (and other JetBrains) IDE
+#
+.idea
+
+# Eclipse IDE
+#
+.classpath
+.project
+.settings
+
+target
+src/main/java/gitutil/gen
+
+unit_test/*/*

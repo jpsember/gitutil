@@ -1,0 +1,10 @@
+enum {
+  unmodified,
+  modified,
+  added,
+  deleted,
+  renamed,
+  copied,
+  unmerged,
+  untracked,
+}

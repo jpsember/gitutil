@@ -1,0 +1,14 @@
+fields {
+  string filename;
+
+  // Renamed these so they retain this order when sorted by name
+  //
+  int r1_begin;
+  int r1_count;
+  int r2_begin;
+  int r2_count;
+
+  *string lines;
+  bool missing_newline1;
+  bool missing_newline2;
+}

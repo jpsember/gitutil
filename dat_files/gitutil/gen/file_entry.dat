@@ -1,0 +1,11 @@
+enum FileState;
+
+fields {
+  *Hunk hunks;
+  FileState old_state;
+  FileState state;
+  string path;
+  string orig_path;
+  string old_mode;
+  string mode;
+}
