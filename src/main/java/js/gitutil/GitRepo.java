@@ -164,7 +164,7 @@ public final class GitRepo extends BaseObject {
       for (FileEntry ent : fileEntries()) {
         if (ent.state() == FileState.MODIFIED || ent.state() == FileState.ADDED) {
           File path = absoluteFile(ent.path());
-          byte[] bytes = Files.toByteArray(path);
+          byte[] bytes = Files.toByteArray(path, null);
           if (indexOfMarker(bytes) >= 0)
             mMarked.add(ent);
         }

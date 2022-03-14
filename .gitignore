@@ -1,14 +1,15 @@
 .DS_Store
 
-# Sublime text editor
-#
-*.sublime-project
-*.sublime-workspace
-
 # Files marked for later removal, or temporary omission
 #
 _OLD_*
 _SKIP_*
+.jsproject
+
+# Sublime text editor
+#
+*.sublime-project
+*.sublime-workspace
 
 # PyCharm (and other JetBrains) IDE
 #
