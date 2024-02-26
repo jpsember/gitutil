@@ -8,6 +8,7 @@ import static js.base.Tools.*;
 
 import js.base.BaseObject;
 import js.base.SystemCall;
+import js.data.DataUtil;
 import js.file.Files;
 import gitutil.gen.FileEntry;
 import gitutil.gen.FileState;
@@ -205,7 +206,7 @@ public final class GitRepo extends BaseObject {
 
   public static final String MARK_SENTINEL_TEXT = "*/                            %%% // gitdiff marker";
 
-  private static final byte[] SENTINEL_BYTES = MARK_SENTINEL_TEXT.getBytes();
+  private static final byte[] SENTINEL_BYTES = DataUtil.toByteArray(MARK_SENTINEL_TEXT);
 
   /**
    * Returns the index within a byte array of the first occurrence of the mark

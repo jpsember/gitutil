@@ -22,6 +22,5 @@ _SKIP_*
 .settings
 
 target
-src/main/java/gitutil/gen
 
 unit_test/*/*
